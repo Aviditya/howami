@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { inject } from "@vercel/analytics"
 
 function getRandomSoftColor() {
   const hue = Math.floor(Math.random() * 360)
