@@ -19,7 +19,7 @@ function App() {
     <div className="center-container" style={{ background: bgColor }}>
       <h1
         onClick={handleClick}
-        style={{ cursor: 'pointer', color: '#fff' }}
+        style={{ cursor: 'pointer', color: '#222', textShadow: '2px 2px 8px #fff, 0 0 2px #fff' }}
       >
         You are Awesome!
       </h1>
